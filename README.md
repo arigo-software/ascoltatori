@@ -237,7 +237,9 @@ var settings = {
   type: 'amqplib',
   json: false,
   amqp: require('amqplib/callback_api'),
-  exchange: 'ascolatore5672'
+  exchange: 'ascolatore5672',
+  queue: 'queueName',
+  durableQueue: true
 };
 
 ascoltatori.build(settings, function (err, ascoltatore) {
@@ -252,7 +254,7 @@ var ascoltatori = require('ascoltatori');
 var settings = {
   type: 'zmq',
   json: false,
-  zmq: require("zmq"),
+  zmq: require("zeromq"),
   port: "tcp://127.0.0.1:33333",
   controlPort: "tcp://127.0.0.1:33334",
   delay: 10
