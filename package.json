@@ -1,6 +1,6 @@
 {
   "name": "ascoltatori",
-  "version": "4.3.0-1",
+  "version": "4.3.0-2",
   "description": "The pub/sub library for node backed by Redis, MongoDB, AMQP (RabbitMQ), ZeroMQ, Kafka, MQTT (Mosquitto) or just plain node!",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/arigo-software/ascoltatori.git"
   },
   "bugs": {
-    "url": "http://github.com/mcollina/ascoltatori/issues"
+    "url": "http://github.com/arigo-software/ascoltatori/issues"
   },
   "keywords": [
     "publish",
